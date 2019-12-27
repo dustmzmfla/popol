@@ -1,0 +1,381 @@
+@charset "utf-8";
+
+.content {
+    width: 100%;
+    height: 1500px;
+    background: black;
+}
+
+.content_body {
+    position: relative;
+    margin: auto;
+    top: 300px;
+    width: 600px;
+    height: 1000px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px 1px gray;
+
+}
+
+.box1 {
+    width: 100%;
+    height: 150px;
+}
+
+.title1 {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.title1 h1 {
+    position: relative;
+    text-align: center;
+    top: 50px;
+    font-size: 40px;
+    left: 40%;
+    float: left;
+    color: rgba(243, 163, 58, 0.8);
+    text-shadow: 0 0 5px orange;
+    cursor: default;
+}
+
+.box1 input {
+    position: relative;
+    width: 40%;
+    height: 50px;
+    float: left;
+    top: 45px;
+    left: 30px;
+    background: black;
+    border-radius: 10px 0px 0px 10px;
+    color: white;
+    text-indent: 10px;
+    text-shadow: 0 0 2px white;
+}
+
+.box1 button {
+    position: relative;
+    width: 80px;
+    height: 56px;
+    float: left;
+    top: 45px;
+    left: 29px;
+    border-radius: 0px 10px 10px 0px;
+    background: black;
+    color: white;
+    cursor: pointer;
+
+}
+
+.box2 {
+    width: 100%;
+    height: 150px;
+}
+
+.title2 {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.title2 h1 {
+    position: relative;
+    text-align: center;
+    top: 50px;
+    font-size: 30px;
+    left: 40%;
+    float: left;
+    color: rgba(243, 163, 58, 0.8);
+    text-shadow: 0 0 5px orange;
+    cursor: default;
+}
+
+.box2 input {
+    position: relative;
+    width: 40%;
+    height: 50px;
+    float: left;
+    top: 45px;
+    left: 30px;
+    background: black;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    text-indent: 10px;
+    text-shadow: 0 0 2px white;
+}
+
+.box3 {
+    width: 100%;
+    height: 150px;
+}
+
+.title3 {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.title3 h1 {
+    position: relative;
+    text-align: center;
+    top: 50px;
+    font-size: 20px;
+    left: 40%;
+    float: left;
+    color: rgba(243, 163, 58, 0.8);
+    text-shadow: 0 0 5px orange;
+    cursor: default;
+}
+
+.box3 input {
+    position: relative;
+    width: 40%;
+    height: 50px;
+    float: left;
+    top: 45px;
+    left: 30px;
+    background: black;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    text-indent: 10px;
+    text-shadow: 0 0 2px white;
+}
+
+.box4 {
+    width: 100%;
+    height: 150px;
+}
+
+.title4 {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.title4 h1 {
+    position: relative;
+    text-align: center;
+    top: 50px;
+    font-size: 25px;
+    left: 40%;
+    float: left;
+    color: rgba(243, 163, 58, 0.8);
+    text-shadow: 0 0 5px orange;
+    cursor: default;
+}
+
+.box4 input {
+    position: relative;
+    width: 15%;
+    height: 50px;
+    float: left;
+    top: 45px;
+    left: 30px;
+    background: black;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    text-indent: 10px;
+    text-shadow: 0 0 10px white;
+}
+
+.box4 h2 {
+    position: relative;
+    top: 65px;
+    left: 40px;
+    font-size: 20px;
+    color: rgba(243, 163, 58, 0.8);
+    text-shadow: 0 0 5px orange;
+    cursor: default;
+}
+
+.box4 select {
+    position: relative;
+    top: 26px;
+    width: 200px;
+    height: 55px;
+    left: 80px;
+    background: black;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    text-indent: 10px;
+    text-shadow: 0 0 2px white;
+    cursor: pointer;
+}
+
+.box5 {
+    width: 100%;
+    height: 150px;
+}
+
+.title5 {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.title5 h1 {
+    position: relative;
+    text-align: center;
+    top: 50px;
+    font-size: 40px;
+    left: 40%;
+    float: left;
+    color: rgba(243, 163, 58, 0.8);
+    text-shadow: 0 0 5px orange;
+    cursor: default;
+}
+
+.men {
+    font-size: 35px;
+    position: relative;
+    top: 50px;
+    float: left;
+    left: 50px;
+    color: lightyellow;
+    text-shadow: 0 0 7px orange;
+    cursor: default;
+}
+
+.women {
+    font-size: 35px;
+    position: relative;
+    top: 50px;
+    float: left;
+    left: 80px;
+    color: lightyellow;
+    text-shadow: 0 0 7px orange;
+    cursor: default;
+}
+
+.box6 {
+    width: 100%;
+    height: 150px;
+}
+
+.title6 {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.title6 h1 {
+    position: relative;
+    text-align: center;
+    top: 50px;
+    font-size: 30px;
+    left: 40%;
+    float: left;
+    color: rgba(243, 163, 58, 0.8);
+    text-shadow: 0 0 5px orange;
+    cursor: default;
+
+}
+
+.year {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 30px;
+    top: 50px;
+    left: 20px;
+    background: black;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    text-indent: 10px;
+    text-shadow: 0 0 2px white;
+}
+
+.month {
+    position: relative;
+    float: left;
+    width: 120px;
+    height: 37px;
+    top: 50px;
+    left: 30px;
+    background: black;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    text-indent: 10px;
+    text-shadow: 0 0 2px white;
+    cursor: pointer;
+}
+
+.date {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 30px;
+    top: 50px;
+    left: 40px;
+    background: black;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    text-indent: 10px;
+    text-shadow: 0 0 2px white;
+}
+
+.check {
+    margin: auto;
+    width: 80%;
+    height: 50px;
+}
+
+.yes {
+    width: 100px;
+    height: 100%;
+    position: relative;
+    float: left;
+    left: 30%;
+    border: 1px solid rgba(40, 243, 199, 0.6);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px rgba(40, 243, 199, 0.3);
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+.yes h1 {
+    position: relative;
+    top: 15px;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(40, 243, 199, 1);
+}
+
+.yes:hover {
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 1px white;
+}
+
+.yes h1:hover {
+    color: white;
+}
+
+.no {
+    width: 100px;
+    height: 100%;
+    position: relative;
+    float: left;
+    left: 50%;
+    border: 1px solid rgba(40, 243, 199, 0.6);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px rgba(40, 243, 199, 0.3);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.no:hover {
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 1px white;
+}
+
+.no h1:hover {
+    color: white;
+}
+
+.no h1 {
+    position: relative;
+    top: 15px;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(40, 243, 199, 1);
+}

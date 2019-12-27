@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+.content {
+    width: 100%;
+    height: 1000px;
+    background: black;
+}
+
+.main {
+    position: relative;
+    margin: auto;
+    top: 300px;
+    width: 500px;
+    height: 300px;
+    border: 1px solid rgba(40, 243, 199, 0.8);
+    box-shadow: 0 0 10px 0 rgba(40, 243, 199, 1) inset;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.main h1 {
+    position: relative;
+    top: 60px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    cursor: default;
+    color: white;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 0.6);
+}
+
+.passbox {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 0;
+}
+
+.passbox input {
+    position: relative;
+    top: 35%;
+    left: 15%;
+    width: 70%;
+    height: 30%;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    background: black;
+    color: rgba(243, 163, 58, 0.8);
+
+    border: 1px solid rgba(243, 163, 58, 0.8);
+    box-shadow: 0 0 10px 0 rgba(243, 163, 58, 1) inset;
+}
+
+.passbox input::placeholder {
+    color: rgba(243, 163, 58, 0.8);
+    text-shadow: 0 0 10px rgba(243, 163, 58, 1);
+}
+
+.okbox {
+    width: 100%;
+    height: 20%;
+}
+
+.okbox:clear {
+    content: '';
+    display: block;
+    float: none;
+    clear: both;
+}
+
+.ok {
+    position: relative;
+    left: 40px;
+    bottom: 20px;
+    width: 30%;
+    height: 80%;
+    border: 1px solid white;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    box-shadow: 0 0 7px 0 white inset;
+}
+
+.ok:hover {
+    border: 1px solid orange;
+    box-shadow: 0 0 7px 0 orange inset;
+}
+
+.ok h2:hover {
+    color: orange;
+    text-shadow: 0 0 5px orange;
+}
+
+.ok h2 {
+    position: relative;
+    top: 15px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    text-shadow: 0 0 5px white;
+}
+
+.no {
+    float: right;
+    position: relative;
+    right: 40px;
+    bottom: 70px;
+    width: 30%;
+    height: 80%;
+    font-size: 10px;
+    border: 1px solid white;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    box-shadow: 0 0 7px 0 white inset;
+}
+
+.no:hover {
+    border: 1px solid orange;
+    box-shadow: 0 0 7px 0 orange inset;
+}
+
+.no h2 {
+    position: relative;
+    top: 15px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    text-shadow: 0 0 5px white;
+}
+
+.no h2:hover {
+    color: orange;
+    text-shadow: 0 0 5px orange;
+}
